@@ -4,9 +4,35 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Rock Paper Scissors</title>
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/rest.css">
+    <script src="js/index.js"></script>
+    <title>Rock Paper Scissors Game</title>
 </head>
+
 <body>
+    <div class="section" id="title-section"><h1>Rock Paper Scissors</h1></div>
+    <div class="section" id="background"></div>
+    <div class="section" id="description"></div>
+    <img style="-webkit-user-select: none;margin: auto;background-color: hsl(0, 0%, 90%);transition: background-color 300ms;" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTcYgRfRW0nkCQWrOZPfrtcnyRViMPkSTW5xg&amp;usqp=CAU">
     
+    <div class="section" id="controls">
+        <button class="control" id="play">play</button>
+        <button class="control" id="rank">rank</button>
+    </div>
+    <div class="section" id="ranking"></div>
+    <div class="section" id="game"></div>
+
+    <h2>Computer Choice:<span id="computer-choice"></span></h2>
+    <h2>Your Choice:<span id="user-choice"></span></h2>
+    <h2>Result:<span id="result"></span></h2>
+    
+    <div class="section" id="options">
+        <button class="option" id="rock">rock</button>
+        <button class="option" id="paper">paper</button>
+        <button class="option" id="scissors">scissors</button>
+    </div>
+        
+        <p id="action-message">Make your move</p>
 </body>
 </html>
