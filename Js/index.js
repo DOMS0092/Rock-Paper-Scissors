@@ -1,13 +1,19 @@
 const computerChoiceDisplay = document.getElementById('computer-choice')
 const userChoiceDisplay = document.getElementById('user-choice')
 const resultDisplay = document.getElementById('result')
-const possibleChoices = document.querySelectorAll('button')
+const possibleChoices = document.getElementById('options')
+let userChoice
 
 possibleChoices.forEach(possibleChoice => possibleChoice.addEventListener('click', (e) => {
     userChoice = e.target.id
     userChoiceDisplay.innerHTML = userChoice
+
+    generateComputerChoice()
 }))
 
+function generateComputerChoice() {
+    const randomNumber = Math.floor(Math.random() * 3 + 1
+}
 
 
 
@@ -23,7 +29,7 @@ possibleChoices.forEach(possibleChoice => possibleChoice.addEventListener('click
 //     .then(data => data.forEach(displayScore))
 // }
 // const displayScore = (score) => {
-//    const div =  document.createElement("div")
+//    const div = document.createElement("div")
 //    div.id= `score-${score.id}`
 //    div.textContent=`${score.userName} - ${score.score}`
 //    ranking.appendChild(div)
