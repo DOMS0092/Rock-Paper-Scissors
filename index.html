@@ -1,12 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
+    
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/index.css">
     <link rel="stylesheet" href="css/rest.css">
-    <script src="js/index.js"></script>
+    
+
     <title>Rock Paper Scissors Game</title>
 </head>
 
@@ -23,16 +24,25 @@
     <div class="section" id="ranking"></div>
     <div class="section" id="game"></div>
 
-    <h2>Computer Choice:<span id="computer-choice"></span></h2>
-    <h2>Your Choice:<span id="user-choice"></span></h2>
-    <h2>Result:<span id="result"></span></h2>
-    
+<div class="results">
+    <div>   
+         <h2>Computer Choice:<span class="result-score" id="computer-choice"></span></h2>
+    </div>
+    <div>
+         <h2>Your Choice:<span class="result-score" id="user-choice"></span></h2>
+    </div>
+    <div>
+         <h2>Result:<span id="result">0</span></h2>
+    </div>
+</div>
+
     <div class="selections">
-        <button class="selection" id="rock">✊🏾</button>
-        <button class="selection" id="paper">🖐🏾</button>
-        <button class="selection" id="scissors">✌🏾</button>
+        <button class="selection" id="r">✊🏾</button>
+        <button class="selection" id="p">🖐🏾</button>
+        <button class="selection" id="s">✌🏾</button>
     </div>
         
         <p id="action-message">Make your move</p>
 </body>
+<script src="js/index.js" charset="UTF-8"></script>
 </html>

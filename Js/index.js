@@ -1,19 +1,28 @@
-const computerChoiceDisplay = document.getElementById('computer-choice')
-const userChoiceDisplay = document.getElementById('user-choice')
-const resultDisplay = document.getElementById('result')
-const possibleChoices = document.getElementById('options')
-let userChoice
+const userScore = 0;
+const computerScore = 0;
+const userScore_span = document.getElementById("user-choice");
+const computerScore_span = document.getElementById("computer-choice");
+const resultsDisplay_div = document.querySelector(".result");
+const rock_div = document.getElementById('r');
+const paper_div = document.getElementById('p');
+const scissors_div = document.getElementById('s');
 
-possibleChoices.forEach(possibleChoice => possibleChoice.addEventListener('click', (e) => {
-    userChoice = e.target.id
-    userChoiceDisplay.innerHTML = userChoice
+rock_div.addEventListener('click', function() {
+    console.log("it worked, you clicked on rock");
+})
 
-    generateComputerChoice()
-}))
+// const selectionButtons = document.querySelectorAll('[data-selection]')
 
-function generateComputerChoice() {
-    const randomNumber = Math.floor(Math.random() * 3 + 1
-}
+// selectionButtons.forEach(selectionButton => {
+//     selectionButton.addEventListener('click', e => {
+//         const selectionName = selectionButtons.dataset.selection
+//         makeSelection(selectionName)
+//     })
+// })
+
+// function makeSelection(selectionName) {
+//     console.log(selections)
+// }
 
 
 

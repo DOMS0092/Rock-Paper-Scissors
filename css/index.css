@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    text-align: center;
 }
 
 .title-section {
@@ -31,6 +32,7 @@ body {
 }
 
 #controls {
+    margin: 20px;
     text-align: center;
 }
 
@@ -45,7 +47,38 @@ p {
     display: inline-block;
     border-radius: 50%;
 }
-.choices {
-    margin: 50px; 0;
+
+.selections {
+    margin-left: inherit;
     text-align: center;
+}
+
+.selection {
+    background: rgb(177, 138, 175);
+    border:none;
+    outline: none;
+    cursor: pointer;
+    font-size: 10rem;
+    transition: 100ms;
+    display: inline-block
+}
+
+.selection:hover {
+    transform: scale(1.3);
+}
+
+.results {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+   
+}
+
+#action-message {
+    text-align: center;
+    font-family: Asap, sans-serif;
+    font: bold;
+    font-size: 20px;
+    padding: 10px;
+    color: rgb(0, 0, 0);
 }
