@@ -11,6 +11,15 @@ rock_div.addEventListener('click', function() {
     console.log("it worked, you clicked on rock");
 })
 
+paper_div.addEventListener('click', function() {
+    console.log("it worked, you clicked on paper");
+})
+
+scissors_div.addEventListener('click', function() {
+    console.log("it worked, you clicked on scissors");
+})
+
+
 // const selectionButtons = document.querySelectorAll('[data-selection]')
 
 // selectionButtons.forEach(selectionButton => {
