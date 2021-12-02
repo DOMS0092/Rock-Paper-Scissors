@@ -34,7 +34,9 @@ First, lets get the JSON server up and running in the background. Run json-serve
     <div class="section" id="background"></div>
     <div class="section" id="description"></div>
     <img style="-webkit-user-select: none;margin: auto;background-color: hsl(0, 0%, 90%);transition: background-color 300ms;" 
-    
+src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTcYgRfRW0nkCQWrOZPfrtcnyRViMPkSTW5xg&amp;usqp=CAU">   
+         
+         
     <div class="section" id="controls">
         <button class="control" id="save">save</button>
         <button class="control" id="rank">rank</button>
