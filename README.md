@@ -6,10 +6,8 @@
 - Practice fetch requests
 
 ## Introduction 
-
-## Description
-
-A fun quick app of rock-paper-scissors. I created this game as my first JavaScript project. I was both exiciting and a great gate way to practicing the skill of JavaScript. I highly reccomend any/eveyone to create this app/project and I hope you all enjoy. 
+In this article I will share how I built my first Rock-Paper-Scissor JavaScript game! I decided to do something both entertaining and fun for myself and my users. I recommend trying this basic/ yet simple project to help you to improve your JavaScript skills. It was the most exciting project ever! I hope you are able to learn something new here.
+The rules are simple:
 
 ## Getting Started
 First, lets get the JSON server up and running in the background. Run json-server --watch db.json to start the JSON server. In the browser you can verify the server is running by navigating to http://localhost:3000/Rock-Paper-Scissors to see the API data.
